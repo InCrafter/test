@@ -1,20 +1,8 @@
-button{
-  margin:auto;
-  display:block;
+.button.block {
+    display: block;
+    width: 200px;    
 }
 
-/* BUTTON STYLES */
-button{
-  padding:16px 32px;
-  font-family:helvetica;
-  font-size:16px;
-  font-weight:100;
-  color:#fff;
-  background: #587286;
-  border:0;
-  font-weight:100;
+.margin-auto {
+    margin: 0 auto;
 }
-button:hover{
-  background: #3B5C76;
-}
-/* END OF BUTTON STYLES */
