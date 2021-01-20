@@ -9,7 +9,31 @@ body {
 </head>
 <body>
 
-<button type="submit" class="block magenta margin-auto">Margin: 0 auto</button>  
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+}
+
+.button1 {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  padding:20px;
+  color: white; 
+  border: 3px solid #fff;
+}
+
+.button1:hover{
+  border: 3px solid #000;
+}
+<div id="particles-js"></div>
+<div class="wrapper">
+  <button class="button button1">button</button>
+  <button class="button button1">button2</button>
+</div>
 
 </body>
 </html>
